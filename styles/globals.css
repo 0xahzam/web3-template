@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: rgb(20,0,22);
+    background: linear-gradient(90deg, rgba(20,0,22,1) 12%, rgba(0,19,22,1) 100%);
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    font-family: "Beatrice";
+    -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+      
+      color: #F67B7B;
+    }
+    
+    10% {
+      
+      color: #F6B67B;
+    }
+    
+    20% {
+      
+      color: #C0F67B;
+    }
+    
+    30% {
+      
+      color: #7BF6D1;
+    }
+    
+    40% {
+      
+      color: #7BCAF6;
+    }
+    
+    50% {
+      
+      color: #9B7BF6;
+    }
+    
+    60% {
+      
+      color: #F67BDB;
+    }
+    
+    70% {
+      
+      color: #F67B98;
+    }
+    80% {
+    
+      color: #F67B7B;
+    }
+    
+    90% {
+    
+      color: #F6BE7B;
+    }
+    
+    100% {
+      
+      color: #F6BE7B;
+    }
+  }
