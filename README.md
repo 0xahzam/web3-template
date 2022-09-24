@@ -11,8 +11,10 @@ yarn dev
 ```
 
 ## Dependencies
-```npm i wagmi ethers```
-```npm init @rainbow-me/rainbowkit@latest```
+```bash
+npm i wagmi ethers
+npm init @rainbow-me/rainbowkit@latest
+```
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
